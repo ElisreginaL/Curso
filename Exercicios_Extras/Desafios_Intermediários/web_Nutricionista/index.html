@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Bem vindes</title>
+</head>
+<body>
+    <header id="upbar">
+        <div class="navbar">
+            <div id="logo-navbar">
+                <img src="img/logo.svg" width="80px" alt="ERROR">
+            </div>
+            <div class="item-navbar">
+                <button class="menu-navbar">Início</button>
+            </div>
+            <div class="item-navbar">
+                <button class="menu-navbar">Receitas</button>
+            </div>
+            <div class="item-navbar">
+                <button class="menu-navbar">Exercícios</button>
+            </div>
+            <div class="item-navbar">
+                <button class="menu-navbar">Segredinhos</button>
+            </div>
+            <div id="pesquisa-navbar">
+                <input type="text" name="" placeholder="O que quer saber?" id="">
+                <button>Pesquisar</button>
+            </div>
+        </div>
+    </header>
+
+    <!------------------------------------------Beggining-------------------------------------------->
+
+    <div id="body-type">
+
+        <section id="beggining-part">
+            <div id="beggining-text">
+                <br>
+                <h1> Bem vindes </h1><br>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisci elit, <br>
+                sed eiusmod tempor incidunt ut labore et dolore magna aliqua. <br>
+                Ut enim ad minim veniam, quis nostrum exercitationem ullam <br>
+                corporis suscipit laboriosam, nisi ut aliquid ex ea commodi <br>
+                consequatur. Quis aute iure reprehenderit in voluptate velit <br>
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint <br>
+                obcaecat cupiditat non proident, sunt in culpa qui officia <br>
+                deserunt mollit anim id est laborum. <br></p>
+            </div>
+            <div id="beggining-image">
+                <img src="img/pratossaudaveis.svg" width="800px" alt="">
+            </div>
+        </section>
+
+    <!------------------------------------------Middle Part-------------------------------------------->
+        <section id="middle-part">
+        
+            <div id="middle-image">
+                <img src="img/nutricionista.svg" width="720px"   alt="ERROR">
+            </div>
+            
+            <div id="halfdown-middlepart">
+
+            <h2 id="question-IMC">O que acha de calcularmos seu IMC?</h2>
+            <input type="text" name="" placeholder="Peso" id="pesokg">
+            <input type="text" name="" placeholder="Altura" id="alturam">
+            <button onclick="calcularIMC()">Calcular</button>
+            <p id="resultado"></p>
+
+            </div>
+
+        </section>
+
+<!------------------------------------------End Part-------------------------------------------->
+
+        <section class="title-end-part">
+            <h1>Receitas</h1>
+        </section>
+
+
+        <section id="end-part">
+
+            <div class="div-end-part">
+                <h3 class="recepies-end-part">Salada de Quinoa com Vegetais Assados:</h3>
+                <ul class="ingredients-end-part"><p>Ingredientes:</p>
+                    <li> Quinoa cozida</li>
+                    <li>Abobrinha </li>
+                    <li>Pimentão vermelho</li>
+                    <li>Tomate cereja</li>
+                    <li>Cebola roxa</li>
+                    <li> Azeite de oliva, sal e pimenta a gosto</li>
+                </ul>
+                <ul class="preparo-end-part"><p>Modo de preparo:</p>
+                    <li>Corte os vegetais em pedaços e misture com a quinoa cozida.</li>
+                    <li>Regue com azeite de oliva e tempere com sal e pimenta a gosto.</li>
+                    <li>Asse no forno até que os vegetais estejam macios.</li>
+                </ul>
+            </div>
+
+            <div class="div-end-part">
+                <h3 class="recepies-end-part">Frango Grelhado com Limão e Ervas:</h3>
+                <ul class="ingredients-end-part"><p>Ingredientes:</p>
+                    <li>Peitos de frango</li>
+                    <li>Suco de limão</li>
+                    <li>Alecrim fresco</li>
+                    <li>Tomilho fresco</li>
+                    <li>Sal e pimenta a gosto</li>
+                </ul>
+                <ul class="preparo-end-part"><p>Modo de preparo:</p>
+                    <li>Tempere os peitos de frango com suco de limão, alecrim, tomilho, sal e pimenta.</li>
+                    <li>Grelhe até que o frango esteja cozido por completo.</li>
+                </ul>
+            </div>
+
+            <div class="div-end-part">
+                <h3 class="recepies-end-part">Smoothie de Frutas e Espinafre:</h3>
+                <ul class="ingredients-end-part"><p>Ingredientes:</p>
+                    <li> Banana congelada</li>
+                    <li>Morangos </li>
+                    <li>Espinafre fresco</li>
+                    <li>Iogurte natural</li>
+                    <li>Água ou leite de amêndoas</li>
+                </ul>
+                <ul class="preparo-end-part"><p>Modo de preparo:</p>
+                    <li>Misture todos os ingredientes no liquidificador até obter uma consistência suave.</li>
+                    <li>Sirva imediatamente como um smoothie refrescante e nutritivo.</li>
+                </ul>
+            </div>
+        </section>
+            
+
+        <section class="title-end-part">
+            <h1>Exercícios</h1>
+        </section>
+
+        <section>
+            <div>
+                <img id="absinstructions" src="img/abs-instructions.svg" alt="ERROR">
+                <img id="abssupra" src="img/abs-supra.svg" alt="ERROR">
+                <img id="absinfra" src="img/abs-infra.svg" alt="ERROR">
+                <img id="absobliquo" src="img/abs-obliquo.svg" alt="ERROR">
+                <img id="absprancha" src="img/abs-prancha.svg" alt="ERROR">
+            </div>
+            <div>
+
+            </div>
+        </section>
+
+        <section>
+            
+        </section>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

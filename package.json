@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@julioakira/cpf-cnpj-utils": "^1.4.2"
+  }
+}

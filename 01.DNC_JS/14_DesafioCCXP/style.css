@@ -1,0 +1,234 @@
+
+body{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: #FFD900;
+    margin: 0px 0px 0px 0px;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+#titulo{
+    color: #F3C61F;
+    text-decoration: bold;
+    font-size: 40px;
+    margin: 0px;
+    padding-top: 15px;
+}
+
+
+#data{
+    color: white;
+}
+
+p{
+    color: white;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+}
+
+#text{
+    background-color: #514988;
+    text-align: center;
+    height: 444px;
+}
+
+section{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#timer{
+    grid-column: span 2; /* Ocupa duas colunas */
+    grid-row: span 1; /* Ocupa uma linha */
+    display: flex; 
+    justify-content: space-between;
+    padding-right: 300px;
+    padding-left: 20px;
+}
+
+#timer h1{
+    margin: 0;
+    margin-top: 15px;
+    font-size: 40px;
+    color: #514988;
+}
+
+video{
+    padding-left: 20px;
+}
+
+#maior{
+    padding-left: 20px;
+    color: #E33881;
+}
+
+#ainda{
+    padding-left: 30px;
+    color: #F3C61F;
+}
+
+#quinta{
+    margin-left: 35px;
+}
+
+
+input[type="button"]{
+
+    background-color: #514988;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    width: 400px;
+    height: 100px;
+    border-radius: 15px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+input[type="button"]:hover{
+    color: #F3C61F;
+}
+
+#botton{
+    display: grid;
+    grid-auto-flow: column;
+    padding-bottom: 40px;
+}
+
+#botao{
+    margin-right: 250px;
+    margin-top: 60px;
+}
+
+.card-highlight{
+    width: 150px;
+    height: 150px;    
+    cursor: pointer;
+}
+
+.card-selected{
+    border: 5px solid green;
+}
+
+#footer{
+    background-color: #FFD900;
+    margin: 0px 0px 0px 0px;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+#email{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 20px;
+    background-color: antiquewhite;
+    border: none;
+}
+
+#submit{
+    background-color: #514988;
+    color: white;
+    text-align: center;
+    font-size: auto;
+    font-weight: 700;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+
+    *{
+        margin: 0px;
+    }
+
+    /* TÍTULO DA PÁGINA */
+
+    header{
+        width: auto;
+        padding: 15px;
+        padding-left: 30px;
+        width: 555px;
+    }
+    
+    /* ANÚNCIO, CONTADOR E VÍDEO */
+    
+    #text{
+        background-color: #514988;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    section{
+        display: grid;
+        grid-auto-flow: row;
+    }
+
+    #timer{
+        grid-column: span 1; /* Ocupa duas colunas */
+        grid-row: span 1; /* Ocupa uma linha */
+        display: flex; 
+        justify-content: space-between;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
+    #maior{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        color: #E33881;
+    }
+
+    video{
+        padding-left: 0px;
+    }
+    
+    /* INGRESSOS E BOTÃO */
+    
+    #ainda{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: max-content;
+    }
+    
+    input[type="button"]{
+        
+        background-color: #514988;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        width: 300px;
+        height: 300%;
+        border-radius: 10px;
+        border: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    input[type="button"]:hover{
+        color: #F3C61F;
+    }
+    
+    #botton{
+        display: grid;
+        grid-auto-flow: row;
+        padding-bottom: 0px;
+    }
+    
+    #botao{
+        align-items: center;
+        text-align: center;
+        margin: 0px;
+        padding-top: 7%;
+    }
+}

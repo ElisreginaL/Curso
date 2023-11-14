@@ -311,8 +311,20 @@ footer .linha2 a:hover{
 
     /* Footer */
 
+    footer{
+        width: 100%;
+    }
+
     footer .linha1{
         flex-direction: column;
+    }
+
+    footer .linha2{
+        flex-direction: row;
+        align-items: center;
+        padding-left: 40px;
+        padding-bottom: 20px;
+
     }
 
     footer .endereco{

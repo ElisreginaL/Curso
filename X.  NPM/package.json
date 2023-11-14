@@ -1,0 +1,11 @@
+{
+  "name": "npm-dnc",
+  "version": "1.0.0",
+  "description": "Um pacote de teste",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elisregina Lobo",
+  "license": "ISC"
+}

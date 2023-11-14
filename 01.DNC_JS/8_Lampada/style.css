@@ -1,0 +1,45 @@
+
+body{
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(239, 235, 228);
+}
+
+#header{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+    color: rgb(239, 235, 228);
+}
+
+#logo{
+    padding-left: 0;
+}
+
+div{
+    text-align: center;
+}
+
+.back{
+    background-color: rgb(239, 235, 228);
+    width: 600px;
+    margin: auto;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+img{
+    padding-left: 188px;
+    padding-right: 188px;
+}
+
+input[type="button"] {
+    background-color: rgb(12, 112, 242);
+    color: rgb(239, 235, 228);
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}

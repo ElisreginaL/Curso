@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body id="principal">
+    <div>
+        <h1>Aprendendo DOM</h1>
+        <p>
+            Lorem ipsum dolor sit amet. Est beatae dolore eos recusandae dolorum <br> 
+            veritatis ut molestiae tenetur non atque ratione hic nisi minus.  <br> 
+            voluptatibus et ipsam commodi sit libero tempora et sint beatae <br> 
+            vel voluptates nihil. Ut placeat velit qui neque minus ut sint <br> 
+            aut neque numquam et molestiae perferendis et voluptates temporibus <br> 
+        </p>
+        <button> Clique Aqui </button>
+        <button> Cliente Aqui 2 </button>
+        <script> 
+            var x = window.document.getElementById('principal')
+            x.style.background = 'black'
+
+            var y = window.document.getElementsByTagName ('button')[0]
+            y.innerHTML = 'Caio'
+        </script>
+    </div>
+    <!--Para solicitar o get Element'S' é sempre necessário informar sua
+    posição de matriz, sendo ela uma matriz ou linear-->
+    
+</body>
+</html>

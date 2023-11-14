@@ -1,0 +1,263 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 228, 107);
+}
+
+button {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
+
+  input[type="text"] {
+    background-color: white;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid rgb(50, 137, 184);
+}
+
+
+
+/********************************************** Menu Completo **********************************************/  
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+#logo-navbar{
+    background-color:  white;
+    padding-left: 10px;
+}
+
+
+.item-navbar{
+    width: 300px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    background-color:  white;
+}
+
+
+#pesquisa-navbar{
+    width: 600px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  white;
+}
+
+.menu-navbar{
+    font-size: 20px;
+    color: white;
+    background-color:  #A9341E;
+    width: 90%;
+    height: 90%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0;
+}
+
+.menu-navbar:hover{
+    background-color: #A9341E;
+    color: #fefefe;
+    width: 90%;
+    height: 120%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+
+#pesquisa-navbar input[type="text"] {
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px rgb(247, 80, 14);
+    margin: 0;
+    box-shadow: 0 0 10px rgba(224, 88, 50, 0.5);
+    border-radius: 7px;
+}
+
+#pesquisa-navbar button {
+    background-color: #6f1e0f;
+    width: 100px;
+    height: 30px;
+    border: 1px rgb(50, 137, 184);
+    margin: 0;
+    box-shadow: 0 0 10px rgba(224, 88, 50, 0.5);
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+}
+
+#pesquisa-navbar button:hover {
+    background-color: #FF914D;
+    box-shadow: 0 0 10px rgba(249, 235, 38, 0.5);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+/********************************************** Beggining **********************************************/ 
+
+#beggining-part{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#beggining-text {
+    padding-left: 50px;
+}
+
+#beggining-text h1{
+    font-size: 50px;
+}
+
+#beggining-image{
+    padding-top: 25px;
+    margin-left: 0;
+}
+
+/********************************************** Middle **********************************************/ 
+
+#middle-part{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+#halfdown-middlepart {
+    margin-left: 30px;
+    margin-right: 200px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+#middle-image{
+    padding-top: 25px;
+    margin-left: 0;
+    margin-bottom: 0;
+    height: max-content;
+}
+
+#question-IMC{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+#halfdown-middlepart input[type="text"] {
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    padding-left: 5px;
+    border: 1px rgb(247, 80, 14);
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(230, 142, 124, 0.5);
+    border-radius: 7px;
+}
+
+#halfdown-middlepart button {
+    background-color: #A9341E;
+    width: 100px;
+    height: 30px;
+    border: 1px rgb(50, 137, 184);
+    margin: 0;
+    box-shadow: 0 0 10px rgba(222, 71, 29, 0.5);
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#halfdown-middlepart button:hover {
+    background-color: #FF914D;
+    box-shadow: 0 0 10px rgba(249, 235, 38, 0.5);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+/********************************************** End **********************************************/ 
+
+.title-end-part h1{
+    width: 100%;
+    height: 69px;
+    font-size: 40px;
+    background-color: #A9341E;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+.ingredients-end-part p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.ingredients-end-part li{
+    list-style-type: none;
+    background-image: url(img/icones-comida.svg);
+    background-repeat: no-repeat;
+    padding-top: 0;
+    padding-bottom: 5px;
+    padding-left: 23px;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+.preparo-end-part p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.preparo-end-part li{
+    list-style-type: none;
+    background-image: url(img/icones-bowl.svg);
+    background-repeat: no-repeat;
+    padding-top: 0;
+    padding-bottom: 5px;
+    padding-left: 23px;
+    vertical-align: middle;
+    line-height: 1.5;
+    margin-right: 25px;
+}
+
+
+
+#end-part{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.div-end-part{
+    padding-left: 25px;
+    margin-left: 30px;
+}
+
+.recepies-end-part{
+    font-size: 20px;
+}
+
