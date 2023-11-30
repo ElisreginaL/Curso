@@ -1,0 +1,160 @@
+
+
+.primeiraLinha ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.primeiraLinha li{
+    padding-right: 1%;
+    font-size: small;
+    font-family: 'Roboto', sans-serif;    
+}
+
+.logoGooglee{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 170px;
+    align-items: flex-end;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 40px;
+    border: 1px solid #E3E3E3;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.icones:hover,
+.icones:focus {
+    box-shadow: 0 0 10px #E3E3E3;
+}
+
+.iconesl {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+}
+
+.iconestm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconestm img:hover{
+    cursor: pointer;
+}
+
+.inputtext input[type="text"]{
+    border: none;
+    width: 500px;
+}
+
+.inputtext input[type="text"]:focus{
+    outline: none;
+}
+
+
+.botoes button{
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 141px;
+    height: 36px;
+    border-radius: 4px;
+    border: none;
+    background-color: #F8F8F8;
+    color: #7B7B7B;
+}
+
+.botoes button:hover{
+    cursor: pointer;
+}
+
+
+.security{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.security p{
+    padding-left: 10px;
+    font-size: 15px;    
+    color: #1A0DBD;
+}
+
+.downContainer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+.paisAtual{
+    padding-left: 40px;
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    color: #707070;
+    height: 47px;
+    align-items: center;
+}
+
+.downBartotal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    border-top: 1px solid #DADCE0;
+    height: 47px;
+}
+
+.downBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.downBar ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: #707070;
+}
+
+
+.downBar li{
+    padding-right: 20px;
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+}
